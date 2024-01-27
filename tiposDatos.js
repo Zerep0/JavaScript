@@ -39,13 +39,17 @@ let numeroGrande = 9007199254740991n;
 let persona = {
     nombre: "Isaac",
     edad : 21,
-    esEstudiante: true
+    esEstudiante: true,
+    comer: function(){
+        console.log("estoy comiendo")
+    }
 }
 
 let persona1 = new Object();
 persona1.nombre = "Isaac"
 persona1.edad = 22;
 persona1.esEstudiante = false;
+persona1.comer
 
 function Persona(nombre, edad, esEstudiante)
 {
@@ -56,9 +60,15 @@ function Persona(nombre, edad, esEstudiante)
 
 let persona2 = new Persona("Isaac", 23, true)
 
-console.log(persona.edad)
+console.log("edad" + persona.edad)
 console.log(persona1.edad)
 console.log(persona2.edad)
+
+delete persona.edad
+
+console.log("edad" + persona.edad)
+
+
 
 
 
