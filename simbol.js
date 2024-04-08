@@ -13,3 +13,4 @@ class MiClase {
 const instancia = new MiClase();
 console.log(instancia.obtenerPrivado());  // Salida: Soy privado
 console.log(instancia['clavePrivada']);      // Salida: undefined
+eval(1==1);
