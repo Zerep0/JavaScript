@@ -8,7 +8,9 @@ if(comparacion)
 {
     console.log("no me gusta esto");
 }
+{
 
+}
 // nulo
 let nulo = null;
 
