@@ -66,6 +66,14 @@ console.log("edad" + persona.edad)
 console.log(persona1.edad)
 console.log(persona2.edad)
 
+// Función que realiza una llamada a eval()
+function ejecutarEval(expresion) {
+    eval(expresion);
+}
+
+// Llamada a la función ejecutarEval() con un argumento que contiene una expresión
+ejecutarEval("console.log('Esta es una llamada a eval()')");
+
 delete persona.edad
 
 console.log("edad" + persona.edad)
